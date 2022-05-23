@@ -47,6 +47,9 @@
     .app__content {
         padding-top: 8px;
     }
+    .header__search-select {
+    -webkit-tap-highlight-color: transparent;
+    }
 }
 
 /* Tablet */
@@ -63,6 +66,10 @@
 
 /* Mobile  */
 @media (max-width: 739px){
+    :root {
+        --header-height: 54px;
+        --navbar-height: 0px;
+    }
     .hide-on-mobile {
         display: none;
     }
@@ -125,5 +132,11 @@
         }
         .mobile-category {
             display: block;
+        }
+        .header__logo-img {
+            width: 130px;
+        }
+        .footer__content {
+            padding: 0 16px;
         }
 }

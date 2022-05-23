@@ -927,7 +927,7 @@
     border: 1px solid #e1e1e1;
     position: absolute;
     top: 0;
-    left: 04px;
+    left: 4px;
     right: 16px;
 
 
@@ -1013,6 +1013,7 @@
     user-select: none;
     -webkit-user-select: none;
     -webkit-tap-highlight-color: none;
+    padding: 0 6px;
 }
 /* home sort filter */
 
