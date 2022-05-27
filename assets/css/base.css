@@ -24,6 +24,9 @@ html{
     transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
     scroll-behavior: smooth;
 }
+.not-active {
+    display: none;
+}
 
 .grid__row {
     display: flex;
